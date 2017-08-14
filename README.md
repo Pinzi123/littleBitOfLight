@@ -1,8 +1,10 @@
 # myapp
 
 ### 消息提出框（引用GitHub上的EasyToastVue）
-import EasyToastVue from '@/components/common/toast'
 ```
+main.js
+import EasyToastVue from '@/components/common/toast'
+
 Vue.use(EasyToastVue)
 
 Vue.prototype.toast = function (msg, options = {}) {
