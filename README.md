@@ -61,16 +61,10 @@ import ./countdown
 
 ### lazy：加载中动画
 使用方法：
-···
+```
     <lazy v-on:showContent='load=true'></lazy>
     <div class="content" v-if='load'>
     </div>
-···
-
-### notice: 错误提示消息
-使用方法
-```
-
 ```
 
 ### popup：弹出确定取消框
